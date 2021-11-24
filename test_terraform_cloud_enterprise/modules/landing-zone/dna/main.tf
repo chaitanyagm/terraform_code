@@ -12,10 +12,15 @@ locals {
 
 }
 
+resource "azurerm_management_group" "landing_business_unit_mg" {
+  display_name = "${local.business_unit_name}-bu-mg"
+  parent_management_group_id = var.landing_zone_mg_id
+}
+
 module "prod" {
-  source        = ".//prod/"
-  business_unit_name    = local.business_unit_name
-  management_group_name     = "${local.business_unit_name}-mg"
+  source                    = ".//prod/"
+  business_unit_name        = local.business_unit_name
+  management_group_id       = azurerm_management_group.landing_business_unit_mg.id
 }
 
 # module "non-prod" {
@@ -27,3 +32,4 @@ module "prod" {
 #   source        = ".//sandpit/"
 #   management_group_name = local.management_group_name
 # }
+

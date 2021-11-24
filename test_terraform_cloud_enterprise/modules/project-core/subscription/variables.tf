@@ -20,7 +20,7 @@ variable "invoice_section_name" {
 variable "business_unit_name" {
 }
 
-variable "management_group_name" {
+variable "management_group_id" {
 }
 
 variable "subscription_name" {

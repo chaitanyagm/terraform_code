@@ -1,17 +1,14 @@
-# variable "billing_account_name" {
-#     default = "hdgfjdjhsfg"
-# }
+variable "billing_account_name" {
+}
 
-# variable "billing_profile_name" {
-#     default = "hdgfjdjhsfg"
-# }
+variable "billing_profile_name" {
+}
 
-# variable "invoice_section_name" {
-#     default = "hdgfjdjhsfg"
-# }
+variable "invoice_section_name" {
+}
 
-# variable "management_group_name" {
-# }
+variable "management_group_id" {
+}
 
-# variable "business_unit_name" {
-# }
+variable "business_unit_name" {
+}

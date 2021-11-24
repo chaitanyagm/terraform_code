@@ -8,7 +8,7 @@ module "subscription" {
     billing_profile_name  = var.billing_profile_name
     invoice_section_name  = var.invoice_section_name
     business_unit_name    = var.business_unit_name
-    management_group_name = var.management_group_name
+    management_group_id = var.management_group_id
     subscription_name     = var.subscription_name
 }
 
