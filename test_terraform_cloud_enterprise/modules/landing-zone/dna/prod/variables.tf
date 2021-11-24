@@ -1,21 +1,17 @@
-variable "billing_account_name" {
-  default = "jhjkshkjh"
-}
+# variable "billing_account_name" {
+#     default = "hdgfjdjhsfg"
+# }
 
-variable "billing_profile_name" {
-  default = "jhjkshkjh"  
-}
+# variable "billing_profile_name" {
+#     default = "hdgfjdjhsfg"
+# }
 
-variable "invoice_section_name" {
-  default = "jhjkhskjh"  
-}
+# variable "invoice_section_name" {
+#     default = "hdgfjdjhsfg"
+# }
 
-variable "subscription_name" {
-  default = "jhjkshkjh"  
-}
+# variable "management_group_name" {
+# }
 
-variable "management_group_name" {
-}
-
-variable "business_unit_name" {
-}
+# variable "business_unit_name" {
+# }

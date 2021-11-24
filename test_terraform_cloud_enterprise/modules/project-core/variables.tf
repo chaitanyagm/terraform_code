@@ -9,17 +9,19 @@ variable "common_tags" {
 }
 
 variable "billing_account_name" {
-  
 }
 
 variable "billing_profile_name" {
-  
 }
 
 variable "invoice_section_name" {
-  
+}
+
+variable "business_unit_name" {
+}
+
+variable "management_group_name" {
 }
 
 variable "subscription_name" {
-  
 }
